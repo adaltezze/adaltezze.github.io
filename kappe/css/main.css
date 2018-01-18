@@ -15,8 +15,7 @@ ul {
 }
 .wrapper {
 	display: flex;
-	min-width: 405px;
-
+	min-width: 320px;
 }
 .container-menu {
 	display: flex;
@@ -121,7 +120,7 @@ ul {
 .filter-menu .item a:hover {
 	opacity: 1;
 }
-footer {
+.footer {
 	padding: 25px;
 }
 .social {
@@ -169,11 +168,11 @@ footer {
 }
 .container-gallery {
 	display: flex;
-	flex: 1 0 405px;
+	flex: 1 0 320px;
 	flex-wrap: wrap;
 }
 .col-items {
-	flex: 1 0 250px;
+	flex: 1 0 auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -240,43 +239,17 @@ footer {
 	cursor: pointer;
 	color: #fff;
 	font-size: 45px;
-	opacity: .5;
+	opacity: .7;
 	z-index: 999;
 	line-height: 1;
-	transition: all .3s;
+	transition: opacity .3s;
 	display: none;
+	border: none;
 }
 .btn-menu:hover {
 	opacity: 1;
 }
-#btn-input:checked ~ .container-menu {
+
+.active {
 	left: 0;
-}
-@media (max-width: 1350px) {
-	.col-items {
-		flex-basis: 350px
-	}
-} 
-@media (max-width: 750px) {
-	.container-menu {
-		position: fixed;
-		top: 0;
-		left: -101%;
-		height: 100%;
-		transition: all .5s
-	}
-	.container-menu:hover {
-		overflow: auto;
-	}
-	.btn-menu {
-		display: block;
-	}
-}
-@media (max-width: 550px) {
-	.container-menu {
-		width: 100%
-	}
-	.col-items .item {
-		flex-basis: 100vh;
-	}
 }
