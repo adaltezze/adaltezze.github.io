@@ -3,6 +3,6 @@ window.addEventListener("load", function() {
   var menu = document.querySelector(".container-menu");
 
   btn.addEventListener("click", function() {
-    menu.classList.add = "active";
+    menu.classList.toggle("active");
   });
 });

@@ -172,7 +172,7 @@ ul {
 	flex-wrap: wrap;
 }
 .col-items {
-	flex: 1 0 auto;
+	flex: 1 0 250px;
 	display: flex;
 	flex-direction: column;
 }
@@ -181,6 +181,7 @@ ul {
 	overflow: hidden;
 	min-height: 311px;
 	position: relative;
+	width: 100%;
 }
 .col-items .item img {
 	width: 100%;
@@ -251,5 +252,5 @@ ul {
 }
 
 .active {
-	left: 0;
+	left: 0 !important;
 }
