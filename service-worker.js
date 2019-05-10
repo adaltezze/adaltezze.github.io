@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/adaltezze/react-video-portal/precache-manifest.0064007b5cd1880541d44ba4df897737.js"
+  "/adaltezze/react-video-portal/precache-manifest.fba5dd159cd92450f0d9122f67845591.js"
 );
 
 workbox.clientsClaim();

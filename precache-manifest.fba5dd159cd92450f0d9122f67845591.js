@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/adaltezze/react-video-portal/static/js/runtime~main.f48daece.js"
   },
   {
-    "revision": "0fe4633ace4dd5c44a3b",
-    "url": "/adaltezze/react-video-portal/static/js/main.cbc7d820.chunk.js"
+    "revision": "1549105d6d3d06a53641",
+    "url": "/adaltezze/react-video-portal/static/js/main.4078c938.chunk.js"
   },
   {
     "revision": "615378149c9d8cf34dbf",
     "url": "/adaltezze/react-video-portal/static/js/2.3a19c195.chunk.js"
   },
   {
-    "revision": "0fe4633ace4dd5c44a3b",
+    "revision": "1549105d6d3d06a53641",
     "url": "/adaltezze/react-video-portal/static/css/main.ff3128c6.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/adaltezze/react-video-portal/static/css/2.b185cdad.chunk.css"
   },
   {
-    "revision": "5857201f6d2ccbd226e631ab578c1a60",
+    "revision": "5fcd1db260c99fdbdb6bcbffce86fb83",
     "url": "/adaltezze/react-video-portal/index.html"
   }
 ];
